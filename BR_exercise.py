@@ -5,7 +5,7 @@ import sys
 import boto3
 import argparse
 
-
+#UPDATE test
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--instance_name', nargs='?', default='prod-br-app-s2', help='search for a specific instance, defaults to prod-br-app-s2')
